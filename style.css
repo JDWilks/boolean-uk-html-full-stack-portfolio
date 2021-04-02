@@ -20,6 +20,7 @@
 .aboutMe {
   background-color: white;
   padding: 5px;
+  border: 5px lightgray;
 }
 .portfolio {
   background-color: #ffebee;
@@ -308,6 +309,8 @@ h1 {
 
 .backtotop a {
   position: sticky;
+  bottom: 100px;
+  left: 95%;
   background-color: rgb(238, 108, 108);
   color: white;
   padding: 20px;
