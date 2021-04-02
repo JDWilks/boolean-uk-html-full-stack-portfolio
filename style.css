@@ -307,6 +307,17 @@ h1 {
 }
 
 .backtotop a {
-  background-color: grey;
+  position: sticky;
+  background-color: rgb(238, 108, 108);
   color: white;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  display: block;
+  border-radius: 50%;
+  text-decoration: none;
+  align-content: center;
+  float: right;
+  text-align: center;
+  text-justify: center;
 }
