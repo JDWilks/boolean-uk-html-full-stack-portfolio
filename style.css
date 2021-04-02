@@ -31,7 +31,6 @@
   padding: 5px;
 }
 .footer {
-  /* background-color: black; */
   background-image: linear-gradient(to right, grey, black);
   color: white;
   padding: 5px;
@@ -276,18 +275,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* 
-<section class="experience">
-<h2 class="name">EXPERIENCE</h2>
-<article class="jobcopy">
-  <h3 >Job Title</h3>
-  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsum repudiandae eligendi totam neque, vero quae ut beatae odio tempore mollitia dolores animi veritatis quo fuga provident quod, nemo laudantium!
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur facilis facere neque rem perferendis, harum dolore sequi consequatur explicabo hic commodi distinctio quae ullam sapiente natus beatae ipsam alias laudantium.</p>
-  <h3>Job Title</h3>
-  <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos vel at a eum est quibusdam libero autem fugiat soluta. Possimus molestias inventore nam maxime unde? Corrupti provident ab illum dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, quis voluptatem nihil veniam porro accusamus, nostrum laudantium omnis saepe consectetur consequuntur veritatis. Dolorem magnam deleniti delectus excepturi sed repellendus ullam.</p>
-</article>
-</section> */
-
 /* footer */
 
 .footer {
@@ -323,4 +310,25 @@ h1 {
   float: right;
   text-align: center;
   text-justify: center;
+}
+
+.readmorelinks a {
+  display: block;
+  color: white;
+  padding: 10px;
+  border: 5px;
+}
+
+.readmorelinks li {
+  text-decoration: none;
+  background-color: #ae1457;
+  padding: 3px;
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  color: white;
+  border-radius: 5px;
+  /* display: flex; */
+  justify-content: center;
 }
